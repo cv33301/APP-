@@ -45,7 +45,6 @@
                 android:layout_height="wrap_content"
                 android:background="#FFC107"
                 android:text="布" />
-
         </RadioGroup>
 
         <TextView
