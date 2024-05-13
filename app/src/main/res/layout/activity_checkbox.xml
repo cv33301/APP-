@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.你有興趣的運動項目:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 桌球"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:button="@drawable/checkbox_checked_png"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 籃球"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:button="@drawable/checkbox_checked_png"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 足球"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:button="@drawable/checkbox_checked_png"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 棒球"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:button="@drawable/checkbox_checked_png"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 排球"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:button="@drawable/checkbox_checked_png"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.你有興趣的運動節目:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="乒乓"
+        android:layout_marginLeft="10dp"
+        android:button="@drawable/checkbox_checked_android"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="灌籃高手"
+        android:layout_marginLeft="10dp"
+        android:button="@drawable/checkbox_checked_android"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="藍色監獄"
+        android:layout_marginLeft="10dp"
+        android:button="@drawable/checkbox_checked_android"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="鑽石王牌"
+        android:layout_marginLeft="10dp"
+        android:button="@drawable/checkbox_checked_android"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="排球少年"
+        android:layout_marginLeft="10dp"
+        android:button="@drawable/checkbox_checked_android"/>
+
+
+</LinearLayout>

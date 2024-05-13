@@ -32,7 +32,7 @@
             android:inputType="text"
             android:textScaleX="1"
             android:typeface="monospace"
-            android:maxLines="1"/>
+            android:background="@drawable/edittext_frame"/>
 
     </LinearLayout>
 
@@ -60,7 +60,8 @@
             android:textColor="#009688"
             android:textColorHint="#9E9E9E"
             android:textColorHighlight="#FFEB3B"
-            android:inputType="text"/>
+            android:inputType="text"
+            android:background="@drawable/edittext_frame"/>
 
     </LinearLayout>
 
