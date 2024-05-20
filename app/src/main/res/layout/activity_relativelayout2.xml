@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lelativelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true">
+
+
+    <TextView
+        android:id="@+id/textview_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="RelativeLayout相對布局練習"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="按鈕一" />
+
+    <EditText
+        android:id="@+id/edittext_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button_01"
+        android:ems="10"
+        android:hint="請輸入帳號："
+        android:inputType="text"
+        android:textColor="#03A9F4"
+        android:textColorHint="#FF5722" />
+
+    <ImageView
+        android:id="@+id/image_star_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_relative"
+        app:srcCompat="@android:drawable/star_big_on" />
+
+    <ImageView
+        android:id="@+id/image_star_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_relative"
+        android:layout_toRightOf="@id/image_star_01"
+        app:srcCompat="@android:drawable/btn_star" />
+
+    <ImageView
+        android:id="@+id/image_star_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview_relative"
+        android:layout_toRightOf="@id/image_star_02"
+        app:srcCompat="@android:drawable/star_big_off" />
+
+    <ImageView
+        android:id="@+id/image_check_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/edittext_id"
+        android:layout_alignParentRight="true"
+        app:srcCompat="@drawable/btn_03" />
+
+    <ImageView
+        android:id="@+id/image_uncheck_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/image_check_01"
+        android:layout_toLeftOf="@id/image_check_01"
+        app:srcCompat="@drawable/btn_04" />
+
+    <ImageView
+        android:id="@+id/image_check_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_uncheck_01"
+        android:layout_toLeftOf="@id/image_uncheck_01"
+        app:srcCompat="@drawable/btn_03" />
+
+    <ImageView
+        android:id="@+id/image_uncheck_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_check_02"
+        android:layout_toRightOf="@id/image_check_02"
+        app:srcCompat="@drawable/btn_04" />
+
+    <Button
+        android:id="@+id/button_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext_id"
+        android:layout_toRightOf="@id/button_01"
+        android:text="按鈕二" />
+
+    <Button
+        android:id="@+id/button_03"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/edittext_id"
+        android:layout_alignRight="@id/button_01"
+        android:text="按鈕三" />
+
+    <Button
+        android:id="@+id/button_04"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/edittext_id"
+        android:layout_alignLeft="@id/button_02"
+        android:text="按鈕四" />
+
+    <Button
+        android:id="@+id/button_05"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignTop="@id/image_star_01"
+        android:layout_toRightOf="@id/image_star_03"
+        android:text="按鈕五" />
+
+    <Button
+        android:id="@+id/button_06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/button_05"
+        android:layout_toLeftOf="@id/button_05"
+        android:text="按鈕六" />
+
+    <Button
+        android:id="@+id/button_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="中央按鈕" />
+
+    <TextView
+        android:id="@+id/textview_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_06"
+        android:text="密碼："
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editview_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/textview_password"
+        android:layout_toRightOf="@id/textview_password"
+        android:ems="10"
+        android:hint="請輸入密碼"
+        android:inputType="text"
+        android:textSize="16sp" />
+</RelativeLayout>

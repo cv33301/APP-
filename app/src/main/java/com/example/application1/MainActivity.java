@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
           //setContentView(R.layout.activity_main);
-          setContentView(R.layout.activity_radiobutton2);
+          setContentView(R.layout.activity_relativelayout2);
           //setContentView(R.layout.activity_edittext);
 //        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
 //            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
