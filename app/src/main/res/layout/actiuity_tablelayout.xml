@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+    <TableRow>
+
+        <TextView
+            android:text="遊戲名稱"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:background="#2196F3"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:padding="5dp"/>
+
+        <TextView
+            android:text="遊戲版本"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:background="#4CAF50"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:padding="5dp"/>
+
+        <TextView
+            android:text="手機系統版本"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:background="#FFC107"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:padding="5dp"/>
+
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:text="超級瑪利歐賽車"
+            android:background="#03A9F4"/>
+
+        <TextView
+            android:text="Version 3.0"
+            android:background="#8BC34A"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:text="Android 13.1"
+            android:background="#FFEB3B"
+            android:layout_margin="5dp"/>
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/button_01"
+        android:text="選取遊戲" />
+
+    <Button
+        android:id="@+id/button_02"
+        android:text="離開選單"/>
+
+    <TableRow>
+        <Button
+            android:id="@+id/button_03_1"
+            android:text="加入清單"/>
+        <Button
+            android:id="@+id/button_03_2"
+            android:text="編輯清單"/>
+        <Button
+            android:id="@+id/button_03_3"
+            android:text="清除清單"/>
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:id="@+id/image_01"
+            android:src="@android:drawable/btn_star"/>
+        <ImageView
+            android:id="@+id/image_02"
+            android:src="@android:drawable/btn_star"/>
+        <ImageView
+            android:id="@+id/image_03"
+            android:src="@android:drawable/btn_star"/>
+    </TableRow>
+
+    <ImageView
+        android:src="@drawable/picture01"
+        android:layout_height="220dp"
+        android:scaleType="centerCrop"/>
+
+    <TableRow
+      android:background="#CDDC39">
+        <TextView
+            android:layout_margin="5dp"
+            android:text="英雄聯盟"
+            android:background="#FFA3C2"/>
+        <TextView
+            android:layout_margin="5dp"
+            android:text="Version 2.5"
+            android:background="#FFA3C2"/>
+        <TextView
+            android:layout_margin="5dp"
+            android:text="Android 9"
+            android:background="#FFA3C2"/>
+    </TableRow>
+
+
+</TableLayout>
