@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:id="@+id/imageview_01"
+        android:src="@drawable/picture01"
+        android:scaleType="fitXY"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview_chang_pic"
+        android:text="切換顯示圖片"
+        android:textSize="24sp"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview_chang_scaletype"
+        android:text="變更縮放模式"
+        android:textSize="24sp"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:clickable="true"/>
+
+</LinearLayout>
